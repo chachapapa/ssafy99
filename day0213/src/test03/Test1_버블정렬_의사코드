@@ -1,0 +1,9 @@
+
+BubbleSort(A)
+	A : 주어진 배열
+	n : A.length, 배열의 길이
+	
+	for(i=0 ; i<n-1 ; i++) // n-1번 반복
+		for(j=0 ; j<n-2-i ; j++)
+		if(A[j] > A[j+1]) then
+		swap(A[J],A[J+1]
